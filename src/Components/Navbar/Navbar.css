@@ -1,0 +1,156 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 2px 140px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav-menu hr {
+  width: 50px;
+  margin-left: 4px;
+}
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
+.anchor-link:hover {
+  color: yellow;
+}
+.nav-menu {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  align-items: center;
+  font-size: 19px;
+  cursor: pointer;
+}
+.nav-menu li:hover {
+  color: yellow;
+}
+.nav-mob-close,
+.nav-mob-open {
+  display: none;
+}
+
+.navbar img {
+  height: 70px;
+  border-radius: 50px;
+  padding: 9px;
+}
+.connect {
+  margin-right: 4px;
+  padding: 20px 21px;
+  background: linear-gradient(267deg, #da7c25 45.37%, #b923e1 100.3%);
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50px;
+  transition: 0.6s;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.connect:hover {
+  transform: scale(1.04);
+}
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media (max-width: 1085px) {
+  .navbar {
+    padding: 1px 71px;
+  }
+  .nav-menu li {
+    font-size: 17px;
+    padding: 12px;
+  }
+  ul {
+    padding: 12px;
+  }
+  .connect {
+    padding: 18px;
+  }
+  .nav-menu {
+    padding: 0px 35px;
+    gap: 30px;
+  }
+}
+@media (max-width: 976px) {
+  .navbar {
+    padding: 0px 26px;
+  }
+  .connect {
+    padding: 15px;
+  }
+  .nav-menu {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 34px;
+    margin: 20px -5px;
+  }
+  .nav-menu hr {
+    display: none;
+  }
+  .connect {
+    display: none;
+  }
+  .nav-mob-open {
+    position: sticky;
+    display: block;
+    position: fixed;
+    right: 30px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .nav-mob-close {
+    display: block;
+    position: relative;
+    top: 30px;
+    left: 55px;
+    width: 30px;
+  }
+  .nav-menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: start;
+    top: 0;
+    gap: 30px;
+    height: 100%;
+    width: 150px;
+    background-image: linear-gradient(25deg, #9a7ca3, #0e0b30);
+    z-index: 1000;
+    transition: right 0.5s;
+    right: -350px;
+  }
+  .nav-mob-close {
+    width: 50px;
+  }
+  .nav-mob-close:hover {
+    cursor: pointer;
+    background-color: #222223;
+    border: 2px solid black;
+    border-radius: 50px;
+  }
+  .nav-menu li {
+    font-size: 20px;
+
+    flex-direction: row;
+    gap: 20px;
+  }
+  .navbar img {
+    height: 50px;
+    border-radius: 50px;
+    padding: 9px;
+  }
+}

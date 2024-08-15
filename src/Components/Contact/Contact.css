@@ -1,0 +1,148 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  padding: 100px;
+  height: 100%;
+}
+
+.contact hr {
+  margin: 0px;
+  width: 267px;
+  margin-bottom: 34px;
+}
+
+.contact h1 {
+  font-size: 55px;
+  background: linear-gradient(267deg, #da7c25 45.37%, #b923e1 100.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+}
+
+.bg5-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+.contact-form {
+  background-image: linear-gradient(25deg, #75637b, #0e0b30);
+  display: flex;
+  padding: 43px 43px 0px;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact-form label {
+  color: #d8d8d8;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.contact-form input {
+  z-index: 2;
+  opacity: 0.9;
+  border: none;
+  width: 450px;
+  height: 48px;
+  padding: 20px;
+  border-radius: 4px;
+  background: #323232;
+  color: #a0a0a0;
+  font-family: "Outfit";
+  font-size: 20px;
+}
+
+.contact-form textarea {
+  width: 450px;
+  border: none;
+  padding: 25px;
+  border-radius: 4px;
+  background: #323232;
+  color: #a0a0a0;
+  font-family: "Outfit";
+  font-size: 20px;
+}
+
+.contact-submit {
+  align-self: center;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 100%);
+  font-size: 22px;
+  padding: 15px 40px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.contact-submit:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 50px 20px;
+  }
+  
+  .contact h1 {
+    font-size: 45px;
+  }
+  
+  .contact hr {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    padding: 30px 30px 0px;
+    gap: 15px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  .contact-submit {
+    padding: 12px 30px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact h1 {
+    font-size: 40px;
+  }
+
+  .contact-form label {
+    font-size: 18px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .contact-submit {
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+}

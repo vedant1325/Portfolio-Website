@@ -1,0 +1,172 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.hero-content {
+  color: white;
+  z-index: 1;
+  display: flex;
+  gap: 200px;
+  align-items: center;
+}
+
+.Hi_logo img {
+  width: 280px;
+  height: 280px;
+}
+
+.hero-info {
+  padding: 25px 23px;
+}
+
+.hero-info h2 {
+  font-size: 60px;
+  animation: fade 4s;
+}
+
+.hero-info h2 span {
+  background: linear-gradient(267deg, #da7c25 45.37%, #b923e1 100.3%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-info p {
+  font-size: 23px;
+  animation: fade 4s;
+}
+
+.hero-action {
+  margin-top: 23px;
+}
+
+.hero-action .resume {
+  background: linear-gradient(267deg, #da7c25 45.37%, #b923e1 100.3%);
+  padding: 12px;
+  text-align: center;
+  width: 134px;
+  font-size: 22px;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.resume:hover {
+  border: 2px solid rgb(223, 144, 8);
+  transform: scale(1.02);
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 1085px) {
+  .hero {
+    padding: 0 15px;
+    width: 100%;
+    height: 75vh;
+  }
+  .hero-content {
+    gap: 100px;
+  }
+  .hero-info h2 {
+    font-size: 55px;
+  }
+  .Hi_logo img {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 976px) {
+  .hero-info p {
+    font-size: 20px;
+  }
+  .hero-info h2 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 891px) {
+  .hero-info {
+    padding: 0px 12px;
+  }
+  .hero-info h2 {
+    font-size: 45px;
+  }
+  .hero-action .resume {
+    padding: 10px;
+    width: 120px;
+    font-size: 20px;
+  }
+  .Hi_logo img {
+    width: 199px;
+    height: 201px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-info h2 {
+    font-size: 40px;
+  }
+  .hero-info p {
+    font-size: 18px;
+  }
+  .hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-content {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .Hi_logo img {
+    display: none;
+  }
+  .hero-action .resume {
+    font-size: 18px;
+    padding: 10px 20px;
+    width: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .Hi_logo img {
+    display: none;
+  }
+  .hero-content {
+    gap: 20px;
+  }
+  .hero-info h2 {
+    font-size: 32px;
+  }
+  .hero-info p {
+    font-size: 16px;
+  }
+  .hero {
+    height: 60vh;
+    padding: 0 10px;
+  }
+  .hero-action .resume {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+}
