@@ -23,9 +23,9 @@ export const proInfo = [
 
     {
 
-        title: "Real Estate Website",
+        title: "🏡 Real Estate Full Stack Website",
         pro_image: Estate,
-        desc: "A modern real estate platform built with the MERN (MongoDB, Express.js, React.js, Node.js) stack.Users can browse property listings, log in securely, and subscribe for real estate updates."
+        desc: "🚀 A modern real estate platform built with the MERN (MongoDB, Express.js, React.js, Node.js) stack.Users can browse property listings, log in securely, and subscribe for real estate updates."
     },
     {
         title: "Weather App",
