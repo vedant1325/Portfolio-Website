@@ -44,13 +44,13 @@ export const proInfo = [
         desc: "Developed a Gemini clone using the Gemini API and React.js, replicating core functionalities with a focus on responsive user interfaces to enhance user experience. Integrated real-time data handling to ensure the delivery of accurate and up-to-date financial information."
     },
     {
-        title: "E-commerce Website",
+        title: "🛍️ Digital Dreams - E-Commerce Website",
         pro_image: pro_backgroung5,
-        desc: "This is a project of mern stack by Vedant Dange from Artificial Intelligence department in SVPCET, Nagpur. This is a E-commerce application in mern stack using the node javascript framework."
+        desc: "🚀 Digital Dreams is a modern e-commerce platform built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. Users can browse products, add them to cart with a seamless shopping experience."
     },
     {
-        title: "Food Delivery Website",
+        title: "🍅 Tomato - Food Delivery Website",
         pro_image: pro_backgroung6,
-        desc: "This is a project of mern stack by Vedant Dange from Artificial Intelligence department in SVPCET, Nagpur. This is a food delivery application in mern stack using the node javascript framework."
+        desc: "🚀 Tomato is a modern food delivery platform built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. Users can select food categories, add items to cart, place orders, and make payments via Stripe."
     }
 ]
