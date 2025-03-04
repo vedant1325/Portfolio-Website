@@ -4,8 +4,8 @@ import pro_backgroung3 from "./pro_background3.png"
 import pro_backgroung4 from "./pro_background4.png"
 import pro_backgroung5 from "./pro_background5.png"
 import pro_backgroung6 from "./pro_background6.png"
-import pro_backgroung6 from "./Estate.png"
-import pro_backgroung6 from "./Imagify.png"
+import Estate from "./Estate.png"
+import imagify from "./imagify.png"
 
 export const proAssets = {
     pro_backgroung1,
@@ -14,7 +14,7 @@ export const proAssets = {
     pro_backgroung4,
     pro_backgroung5,
     pro_backgroung6,
-    Imagify,
+    imagify,
     Estate
     
 
