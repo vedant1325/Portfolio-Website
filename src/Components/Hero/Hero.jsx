@@ -2,7 +2,7 @@ import React from 'react';
 import "./Hero.css";
 import Hi_hand from "../../assets/Hi_hand.png";
 import star1 from "../../assets/star1.mp4";
-import  resume from "../../../src/resume2.pdf"
+import  VedantResume1 from "../../../src/VedantResume1.pdf"
 
 
 
@@ -20,7 +20,7 @@ const Hero = () => {
           <h2>I'm <span>Vedant Dange</span></h2>
           <p>I am a Full Stack Web Developer...</p>
           <div className="hero-action">
-           <a  href={resume2} download="Vedant Dange_Resume"  ><div className="resume" >Resume</div></a> 
+           <a  href={VedantResume1} download="Vedant Dange_Resume"  ><div className="resume" >Resume</div></a> 
           </div>
         </div>
         <div className="Hi_logo">
