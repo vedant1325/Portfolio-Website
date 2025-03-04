@@ -35,7 +35,7 @@ export const proInfo = [
     },
     {
         title: "Imagify - AI Image Generator ✨🎨",
-        pro_image: Imagify,
+        pro_image: imagify,
         desc: "🚀 Imagify is a MERN stack web app that allows users to generate AI images using the Clipdrop API.🔒 Users need to create an account to access the AI image generation feature."
     },
     {
